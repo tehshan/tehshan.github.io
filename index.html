@@ -3,230 +3,227 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tuan Ehshan Pallie | Software Engineer, Smart Textiles & National Chess Trainer</title>
+  <title>Tuan Ehshan Pallie — Software & IoT Engineer | Smart Textiles | National Chess Trainer</title>
   
-  <meta name="description" content="Official portfolio and services website of Tuan Ehshan Pallie. Software & IoT developer, Textile & Apparel Engineering undergraduate at University of Moratuwa, and Certified National Chess Trainer.">
-  <meta name="keywords" content="Tuan Ehshan Pallie, Chess Coach Sri Lanka, National Chess Trainer, Software Engineer, Textile and Apparel Engineering, University of Moratuwa, IoT, ESP32, Smart Textiles">
+  <meta name="description" content="Official website of Tuan Ehshan Pallie. Software & IoT developer, Textile & Apparel Engineering undergraduate at University of Moratuwa, and Certified National Chess Trainer.">
+  <meta name="keywords" content="Tuan Ehshan Pallie, Chess Coach Sri Lanka, National Chess Trainer, Software Engineer, University of Moratuwa, IoT, ESP32, Smart Textiles">
   <meta name="author" content="Tuan Ehshan Pallie">
   
-  <!-- Open Graph / Social Media Meta -->
-  <meta property="og:title" content="Tuan Ehshan Pallie | Official Portfolio & Services">
-  <meta property="og:description" content="Engineering Intelligence into Code, Smart Textiles & Strategic Minds. Explore services, achievements, and technical projects.">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Tuan Ehshan Pallie — Portfolio & Services">
+  <meta property="og:description" content="Engineering Intelligence into Code, Smart Textiles & Strategic Minds.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="assets/images/profile.jpg">
   
-  <!-- Google Fonts -->
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   
-  <!-- Main Stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-  <!-- Ambient Animated Background Glows -->
+  <!-- Ambient Background Glows -->
   <div class="bg-ambient">
     <div class="orb orb-1"></div>
     <div class="orb orb-2"></div>
     <div class="orb orb-3"></div>
   </div>
 
-  <!-- Header Navigation -->
-  <header class="navbar">
-    <div class="container nav-container">
-      <a href="#home" class="brand-logo">
-        <span class="logo-badge">EP</span>
+  <!-- Floating Island Navigation -->
+  <div class="nav-wrapper">
+    <header class="navbar">
+      <a href="#home" class="brand">
+        <span class="brand-dot"></span>
         <span>Ehshan Pallie</span>
       </a>
 
       <nav>
-        <ul class="nav-menu" id="nav-menu">
+        <ul class="nav-links" id="nav-links">
           <li><a href="#home" class="nav-link active">Home</a></li>
           <li><a href="#about" class="nav-link">About</a></li>
           <li><a href="#services" class="nav-link">Services</a></li>
-          <li><a href="#projects" class="nav-link">Projects & Research</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
           <li><a href="#achievements" class="nav-link">Achievements</a></li>
           <li><a href="#skills" class="nav-link">Skills</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
       </nav>
 
-      <div class="nav-actions">
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+      <div class="nav-right">
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle theme">
           <span id="theme-icon">
-            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+            <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
           </span>
         </button>
         <a href="#contact" class="btn btn-primary btn-sm" data-open-modal data-service="General Consultation">Hire Me</a>
-        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">&#9776;</button>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"/></svg>
+        </button>
       </div>
-    </div>
-  </header>
+    </header>
+  </div>
 
   <!-- Hero Section -->
-  <section id="home" class="hero-section">
+  <section id="home" class="hero">
     <div class="container hero-grid">
-      <div class="hero-content">
-        <div class="hero-pills">
-          <span class="hero-pill tech">
-            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-            Software & IoT Engineer
+      <div class="hero-left">
+        <div class="hero-badge-row">
+          <span class="hero-subtag cyan">
+            <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+            Software & IoT
           </span>
-          <span class="hero-pill textile">
-            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M19.5 3h-15C3.1 3 2 4.1 2 5.5v13C2 19.9 3.1 21 4.5 21h15c1.4 0 2.5-1.1 2.5-2.5v-13C22 4.1 20.9 3 19.5 3zM12 5.5c1.4 0 2.5 1.1 2.5 2.5S13.4 10.5 12 10.5 9.5 9.4 9.5 8s1.1-2.5 2.5-2.5zm0 13c-2.7 0-5.8-1.3-6-2.5.2-1.2 3.3-2.5 6-2.5s5.8 1.3 6 2.5c-.2 1.2-3.3 2.5-6 2.5z"/></svg>
-            Textile & Apparel Engineer
+          <span class="hero-subtag emerald">
+            <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            Smart Textiles · UoM
           </span>
-          <span class="hero-pill chess">
-            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M19 22H5v-2h14v2zm-2-4H7v-2l1.5-2.5C7.2 12.3 7 11 7 9.5 7 5.9 9.2 3 12 3s5 2.9 5 6.5c0 1.5-.2 2.8-1.5 4L17 16v2z"/></svg>
+          <span class="hero-subtag gold">
+            <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
             National Chess Trainer
           </span>
         </div>
 
         <h1 class="hero-title">
-          Hi, I'm <span class="gradient-text">Tuan Ehshan Pallie</span>
+          Hi, I'm <span class="gradient-title">Tuan Ehshan Pallie</span>
         </h1>
-        
-        <p class="hero-subtitle">
+
+        <p class="hero-lead">
           Engineering Intelligence into Code, Smart Textiles & Strategic Minds.
         </p>
 
-        <p class="hero-description">
-          Undergraduate at the <strong>University of Moratuwa</strong> pursuing dual tracks in <em>Textile & Apparel Engineering (B.Sc. Hons)</em> and <em>Information Technology (BIT)</em>. Certified <strong>National Chess Trainer</strong> (CFSL) and international medalist committed to high-performance coaching, wearable IoT innovation, and materials research.
+        <p class="hero-text">
+          Undergraduate at the <strong>University of Moratuwa</strong> pursuing dual disciplines in <em>Textile & Apparel Engineering (B.Sc. Hons)</em> and <em>Information Technology (BIT)</em>. Certified <strong>National Chess Trainer</strong> (CFSL) and international medalist committed to wearable IoT innovation, high-performance coaching, and materials research.
         </p>
 
-        <div class="hero-cta">
+        <div class="hero-actions">
           <a href="#services" class="btn btn-primary">
             Explore Services
-            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
           </a>
-          <button class="btn btn-secondary" data-open-modal data-service="1-on-1 Chess Coaching">
+          <button class="btn btn-secondary" data-open-modal data-service="1-on-1 Personalized Chess Coaching">
             Book Chess Training
           </button>
           <a href="assets/docs/Tuan_Ehshan_Pallie_CV.pdf" download class="btn btn-outline" title="Download Official CV">
-            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
             Download CV
           </a>
         </div>
 
         <div class="hero-stats">
-          <div class="stat-item">
-            <h3>300+</h3>
-            <p>Students Trained in Chess</p>
+          <div class="stat-box">
+            <h4>300+</h4>
+            <p>Students Coached in Chess</p>
           </div>
-          <div class="stat-item">
-            <h3>Top 10</h3>
+          <div class="stat-box">
+            <h4>Top 10</h4>
             <p>World Schools Chess (Turkey)</p>
           </div>
-          <div class="stat-item">
-            <h3>Dual</h3>
-            <p>Eng. & IT Degrees (UoM)</p>
+          <div class="stat-box">
+            <h4>Dual</h4>
+            <p>UoM Engineering & IT Tracks</p>
           </div>
         </div>
       </div>
 
-      <div class="hero-visual">
-        <div class="avatar-wrapper">
-          <div class="avatar-glow"></div>
-          <div class="avatar-card">
-            <img src="assets/images/profile.jpg" alt="Tuan Ehshan Pallie">
-          </div>
-
-          <!-- Floating Badges -->
-          <div class="floating-badge floating-badge-1">
-            <div class="badge-icon gold">♟</div>
-            <div>
-              <div class="badge-text-title">National Trainer</div>
-              <div class="badge-text-sub">CFSL Certified</div>
+      <div class="hero-portrait-wrap">
+        <div class="portrait-frame">
+          <img src="assets/images/profile.jpg" alt="Tuan Ehshan Pallie" class="portrait-img">
+          <div class="portrait-status">
+            <div class="status-indicator">
+              <span class="status-dot"></span>
+              <span>Available for Consultations</span>
             </div>
-          </div>
-
-          <div class="floating-badge floating-badge-2">
-            <div class="badge-icon cyan">🥈</div>
-            <div>
-              <div class="badge-text-title">Asian Youth Silver</div>
-              <div class="badge-text-sub">International Medalist</div>
-            </div>
+            <span class="status-sub">Colombo, LK</span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- About Me Section -->
+  <!-- About Section -->
   <section id="about" class="section">
     <div class="container">
       <div class="section-header">
-        <span class="badge-tag">Background & Vision</span>
-        <h2 class="section-title">The Strategic Intersection of <span class="gradient-text">Engineering & Mind</span></h2>
-        <p class="section-desc">Bridging algorithmic software, wearable biomedical sensors, and grandmaster-level strategic thinking.</p>
+        <span class="badge-pill">Background & Philosophy</span>
+        <h2 class="section-title">Where Engineering Meets <span class="gradient-accent">Grandmaster Strategy</span></h2>
+        <p class="section-desc">Synthesizing physical materials science with embedded computing, backed by competitive strategic discipline.</p>
       </div>
 
       <div class="about-grid">
-        <div class="about-narrative">
+        <div class="about-body">
           <p>
-            I operate at the rare intersection of three demanding worlds: <strong>Software Engineering</strong>, <strong>Textile & Apparel Engineering</strong>, and <strong>Competitive Chess Masterclass Coaching</strong>.
+            I operate at the intersection of three technical disciplines: <strong>Software Engineering</strong>, <strong>Textile & Materials Engineering</strong>, and <strong>Competitive Chess Coaching</strong>.
           </p>
           <p>
-            At the <strong>University of Moratuwa</strong>, I am synthesizing physical material science with embedded IoT technology — developing breakthrough applications like wearable e-textile patient monitoring gloves that track PPG, heart rate, and temperature while enduring real-world mechanical strain.
+            At the <strong>University of Moratuwa</strong>, I am developing wearable e-textile patient monitoring systems that integrate ESP32 microcontrollers, PPG, and temperature sensors into custom elastomeric fabric blends designed for real-world mechanical endurance.
           </p>
           <p>
-            As a <strong>National Chess Trainer</strong> certified by the Chess Federation of Sri Lanka and former Asian Youth Silver Medalist, I apply the exact same tactical precision, deep calculation, and mental resilience to engineering problems and coaching the next generation of champions.
+            As a <strong>Certified National Chess Trainer</strong> and Asian Youth Silver Medalist who has mentored over 300 students to national and international podiums, I apply the same disciplined tree-of-thought calculation to software architecture and engineering design.
           </p>
 
-          <div class="highlights-cards">
-            <div class="highlight-box">
-              <div class="box-icon">♟️</div>
-              <h4>Strategic Mastery</h4>
-              <p>Top 10 World Schools finisher & Asian Youth Silver medalist with 300+ students coached.</p>
+          <div class="about-focus-grid">
+            <div class="focus-card">
+              <div class="focus-icon">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <h4>Strategic Calculation</h4>
+              <p>Top 10 World Schools finisher & Asian Youth Silver Medalist with 300+ students coached.</p>
             </div>
-            <div class="highlight-box">
-              <div class="box-icon">💡</div>
+
+            <div class="focus-card">
+              <div class="focus-icon">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+              </div>
               <h4>Smart E-Textiles</h4>
-              <p>ESP32 biosensing, elastomeric blends, and Fusion 360 endurance modeling.</p>
+              <p>ESP32 biosensing, elastomeric substrate recovery, and Fusion 360 cyclic analysis.</p>
             </div>
-            <div class="highlight-box">
-              <div class="box-icon">💻</div>
-              <h4>Full-Stack & Systems</h4>
-              <p>Fluent in C#, C++, Java, Python, and web technologies powering diagnostic tools.</p>
+
+            <div class="focus-card">
+              <div class="focus-icon">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+              </div>
+              <h4>Full-Stack Systems</h4>
+              <p>Proficient in C#, C++, Java, Python, and JavaScript powering medical diagnostic telemetries.</p>
             </div>
-            <div class="highlight-box">
-              <div class="box-icon">🌱</div>
-              <h4>Sustainable Research</h4>
-              <p>ICEH 2026 published researcher tackling chemical pollution in textile wastewater.</p>
+
+            <div class="focus-card">
+              <div class="focus-icon">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 3v18M3 12h18M5 5l14 14M19 5L5 19"/></svg>
+              </div>
+              <h4>Wastewater Research</h4>
+              <p>ICEH 2026 accepted research on sustainable chemical mitigation in textile effluents.</p>
             </div>
           </div>
         </div>
 
-        <!-- Education & Credentials Timeline -->
-        <div class="timeline-container">
-          <h3 style="font-size: 1.35rem; margin-bottom: 0.5rem;">Academic & Professional Journey</h3>
-
+        <!-- Academic & Professional Timeline -->
+        <div class="timeline-wrap">
           <div class="timeline-card">
-            <span class="timeline-period">Nov 2024 – Jan 2026</span>
+            <span class="timeline-year">Nov 2024 – Jan 2026</span>
             <h4>Assistant Chess Coach & National Trainer</h4>
-            <div class="timeline-institution">Royal Institute International School (Nugegoda, Maharagama, Havelock)</div>
-            <p>Mentored 300+ students to achieve rating leaps and gold, silver, and bronze medals across national and international chess tournaments. Certified by Trainers Commission, CFSL.</p>
+            <div class="timeline-org">Royal Institute International School</div>
+            <p>Trained 300+ students across Nugegoda, Maharagama, and Havelock branches, resulting in national and international medalists. Certified by Trainers Commission, CFSL.</p>
           </div>
 
           <div class="timeline-card">
-            <span class="timeline-period">Jan 2025 – Present</span>
+            <span class="timeline-year">Jan 2025 – Present</span>
             <h4>B.Sc. (Hons) Textile & Apparel Engineering</h4>
-            <div class="timeline-institution">University of Moratuwa</div>
-            <p>Specializing in Fibre Science, Fabric Mechanics, Weave Architecture, Material Testing, and E-Textile Prototyping.</p>
+            <div class="timeline-org">University of Moratuwa</div>
+            <p>Specialization in Fibre Science, Fabric Mechanics, Weave Architecture, Tensile Characterization, and E-Textile Prototyping.</p>
           </div>
 
           <div class="timeline-card">
-            <span class="timeline-period">June 2025 – Present</span>
+            <span class="timeline-year">June 2025 – Present</span>
             <h4>Bachelor of Information Technology (BIT)</h4>
-            <div class="timeline-institution">University of Moratuwa</div>
-            <p>Comprehensive curriculum spanning Object-Oriented Programming, Database Systems, IoT integration, and Software Architecture.</p>
+            <div class="timeline-org">University of Moratuwa</div>
+            <p>Object-Oriented Programming, Database Systems, IoT Telemetry, and Distributed Software Architecture.</p>
           </div>
 
           <div class="timeline-card">
-            <span class="timeline-period">2023</span>
-            <h4>G.C.E. A/L – Physical Science Stream</h4>
-            <div class="timeline-institution">Royal College, Colombo 05</div>
+            <span class="timeline-year">2023</span>
+            <h4>G.C.E. A/L — Physical Science Stream</h4>
+            <div class="timeline-org">Royal College, Colombo 05</div>
             <p>Combined Mathematics: <strong>A</strong> | Physics: <strong>A</strong> | Chemistry: <strong>B</strong>. Royal College Colorsman.</p>
           </div>
         </div>
@@ -235,108 +232,106 @@
   </section>
 
   <!-- Services Section -->
-  <section id="services" class="section" style="background: var(--bg-secondary);">
+  <section id="services" class="section" style="background: var(--bg-surface);">
     <div class="container">
       <div class="section-header">
-        <span class="badge-tag badge-emerald">What I Offer</span>
-        <h2 class="section-title">Specialized <span class="gradient-text">Services & Expertise</span></h2>
-        <p class="section-desc">Whether you are an aspiring chess player looking to conquer tournaments, a business seeking custom software solutions, or an enterprise exploring smart textile innovations.</p>
+        <span class="badge-pill emerald">Services & Consulting</span>
+        <h2 class="section-title">Specialized <span class="gradient-accent">Services & Offerings</span></h2>
+        <p class="section-desc">Tailored coaching for aspiring chess champions, full-stack software development, and specialized smart textile engineering advisory.</p>
       </div>
 
-      <!-- Category Filter Pills -->
-      <div class="services-filters">
-        <button class="filter-btn active" data-filter="all">All Services</button>
-        <button class="filter-btn" data-filter="chess">Chess Masterclass & Coaching</button>
-        <button class="filter-btn" data-filter="tech">Software & IoT Engineering</button>
-        <button class="filter-btn" data-filter="textile">Textile & Materials Consulting</button>
+      <!-- Filter Bar -->
+      <div class="filter-bar">
+        <button class="filter-pill active" data-filter="all">All Services</button>
+        <button class="filter-pill" data-filter="chess">Chess Coaching</button>
+        <button class="filter-pill" data-filter="tech">Software & IoT</button>
+        <button class="filter-pill" data-filter="textile">Textile Engineering</button>
       </div>
 
       <!-- Services Grid -->
       <div class="services-grid">
 
-        <!-- Service 1: 1-on-1 Chess Coaching -->
-        <div class="service-card category-chess">
-          <div class="service-header">
-            <div class="service-icon-box">♟️</div>
+        <!-- Service 1 -->
+        <div class="clean-service-card category-chess">
+          <div class="service-top">
+            <div class="service-icon-clean">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
             <h3>1-on-1 Personalized Chess Coaching</h3>
-            <p class="service-summary">
-              Customized training curriculum for competitive players aiming for rapid FIDE rating growth, tactical sharpness, and deep opening preparation.
+            <p class="service-desc">
+              Structured training tailored for competitive players targeting rapid FIDE rating acceleration, sharp calculation, and custom opening repertoires.
             </p>
           </div>
-          <ul class="service-features">
+          <ul class="service-checklist">
             <li>
               <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              Personalized Opening Repertoire tailored to your style
+              Opening repertoire built to match your tactical profile
             </li>
             <li>
               <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              Rigorous calculation drills & endgame technique
+              Calculation accuracy & high-pressure endgame drills
             </li>
             <li>
               <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              Psychological preparation for high-stakes tournaments
-            </li>
-            <li>
-              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              Post-game analysis of your classical and online games
+              Detailed post-mortem analysis of tournament games
             </li>
           </ul>
-          <div class="service-footer">
-            <span class="service-badge">Online / In-Person (Colombo)</span>
-            <button class="btn btn-primary btn-sm" data-open-modal data-service="1-on-1 Personalized Chess Coaching">
-              Book a Session
+          <div class="service-bottom">
+            <span class="service-tag">Online / In-Person (Colombo)</span>
+            <button class="btn btn-secondary btn-sm" data-open-modal data-service="1-on-1 Personalized Chess Coaching">
+              Book Session
             </button>
           </div>
         </div>
 
-        <!-- Service 2: School & Academy Chess Programs -->
-        <div class="service-card category-chess">
-          <div class="service-header">
-            <div class="service-icon-box">🏆</div>
-            <h3>School & Institutional Chess Training</h3>
-            <p class="service-summary">
-              Structured chess curriculum and tournament team training designed for international schools, clubs, and sports academies.
+        <!-- Service 2 -->
+        <div class="clean-service-card category-chess">
+          <div class="service-top">
+            <div class="service-icon-clean">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+            </div>
+            <h3>School & Institutional Chess Programs</h3>
+            <p class="service-desc">
+              Comprehensive tournament curriculum and team training designed for international schools, collegiate clubs, and sports academies.
             </p>
           </div>
-          <ul class="service-features">
+          <ul class="service-checklist">
             <li>
               <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              Proven record: 300+ students trained with national podium finishes
+              Proven record: 300+ students with national podium results
             </li>
             <li>
               <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              Progressive beginner-to-advanced syllabus
-            </li>
-            <li>
-              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              Team tournament strategy & board-order optimization
+              Progressive beginner-to-rated competitive syllabus
             </li>
             <li>
               <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
               CFSL Certified National Trainer credentials
             </li>
           </ul>
-          <div class="service-footer">
-            <span class="service-badge">Group Masterclasses</span>
-            <button class="btn btn-primary btn-sm" data-open-modal data-service="School & Institutional Chess Training">
+          <div class="service-bottom">
+            <span class="service-tag">Group Masterclasses</span>
+            <button class="btn btn-secondary btn-sm" data-open-modal data-service="School & Institutional Chess Programs">
               Inquire for Academy
             </button>
           </div>
         </div>
 
-        <!-- Service 3: Wearable Tech & IoT Prototyping -->
-        <div class="service-card category-tech">
-          <div class="service-header">
-            <div class="service-icon-box">⚡</div>
+        <!-- Service 3 -->
+        <div class="clean-service-card category-tech">
+          <div class="service-top">
+            <div class="service-icon-clean">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+            </div>
             <h3>Wearable IoT & Biosensing Prototyping</h3>
-            <p class="service-summary">
-              End-to-end prototyping of embedded systems, smart wearable textiles, and telemetry hardware integrating microcontrollers and bio-sensors.
+            <p class="service-desc">
+              End-to-end prototyping of embedded systems, wearable biomedical devices, and telemetry hardware integrating microcontrollers and bio-sensors.
             </p>
           </div>
-          <ul class="service-features">
+          <ul class="service-checklist">
             <li>
               <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              ESP32 & Arduino firmware development (C++, Python)
+              ESP32 & Arduino firmware engineering (C++, Python)
             </li>
             <li>
               <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
@@ -344,121 +339,111 @@
             </li>
             <li>
               <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              E-Textile substrate integration & sensor retention
-            </li>
-            <li>
-              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              Real-time wireless telemetry & alert algorithms
+              Real-time telemetry and wireless alert mechanisms
             </li>
           </ul>
-          <div class="service-footer">
-            <span class="service-badge">Hardware & Firmware</span>
-            <button class="btn btn-primary btn-sm" data-open-modal data-service="Wearable IoT & Biosensing Prototyping">
+          <div class="service-bottom">
+            <span class="service-tag">Hardware & Firmware</span>
+            <button class="btn btn-secondary btn-sm" data-open-modal data-service="Wearable IoT & Biosensing Prototyping">
               Discuss IoT Project
             </button>
           </div>
         </div>
 
-        <!-- Service 4: Full-Stack Software Development -->
-        <div class="service-card category-tech">
-          <div class="service-header">
-            <div class="service-icon-box">💻</div>
-            <h3>Full-Stack Software & Web Development</h3>
-            <p class="service-summary">
-              Modern, robust web applications and desktop tools built with clean architecture, high responsiveness, and secure database backends.
+        <!-- Service 4 -->
+        <div class="clean-service-card category-tech">
+          <div class="service-top">
+            <div class="service-icon-clean">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+            </div>
+            <h3>Full-Stack Software Development</h3>
+            <p class="service-desc">
+              High-performance web applications and desktop tools built with clean architecture, modern responsive design, and robust data backends.
             </p>
           </div>
-          <ul class="service-features">
+          <ul class="service-checklist">
             <li>
               <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
               Core stacks: C#, Java, Python, JavaScript, PHP
             </li>
             <li>
               <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              Health & diagnostic dashboards (e.g., HealthyByte)
+              Health & diagnostic dashboards (e.g. HealthyByte)
             </li>
             <li>
               <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              Responsive web apps with ultra-clean modern UI
-            </li>
-            <li>
-              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              API design, data processing, and telemetry integration
+              RESTful APIs, telemetry pipelines & database schema design
             </li>
           </ul>
-          <div class="service-footer">
-            <span class="service-badge">Web & Application Dev</span>
-            <button class="btn btn-primary btn-sm" data-open-modal data-service="Full-Stack Software & Web Development">
-              Hire for Development
+          <div class="service-bottom">
+            <span class="service-tag">Web & Applications</span>
+            <button class="btn btn-secondary btn-sm" data-open-modal data-service="Full-Stack Software Development">
+              Hire for Dev
             </button>
           </div>
         </div>
 
-        <!-- Service 5: Textile CAD & Materials Consulting -->
-        <div class="service-card category-textile">
-          <div class="service-header">
-            <div class="service-icon-box">🔬</div>
+        <!-- Service 5 -->
+        <div class="clean-service-card category-textile">
+          <div class="service-top">
+            <div class="service-icon-clean">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+            </div>
             <h3>Parametric CAD & Textile Engineering</h3>
-            <p class="service-summary">
-              Technical consultation on fabric mechanics, parametric 3D CAD modeling, cyclic endurance testing, and wastewater treatment engineering.
+            <p class="service-desc">
+              Engineering consultation on fabric mechanics, parametric 3D CAD modeling, cyclic endurance testing, and wastewater treatment methodologies.
             </p>
           </div>
-          <ul class="service-features">
+          <ul class="service-checklist">
             <li>
               <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
               Parametric 3D CAD modeling (Autodesk Fusion, Inventor)
             </li>
             <li>
               <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              Material endurance analysis & cyclic load testing
+              Elastomeric blend design (20% spandex recovery & retention)
             </li>
             <li>
               <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              Elastomeric blend design (e.g. 20% spandex recovery)
-            </li>
-            <li>
-              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              Sustainable wastewater mitigation methodologies
+              Sustainable industrial wastewater treatment advisory
             </li>
           </ul>
-          <div class="service-footer">
-            <span class="service-badge">Engineering Advisory</span>
-            <button class="btn btn-primary btn-sm" data-open-modal data-service="Parametric CAD & Textile Engineering">
+          <div class="service-bottom">
+            <span class="service-tag">Materials Advisory</span>
+            <button class="btn btn-secondary btn-sm" data-open-modal data-service="Parametric CAD & Textile Engineering">
               Consult on Materials
             </button>
           </div>
         </div>
 
-        <!-- Service 6: Strategic Consultation & Coaching -->
-        <div class="service-card category-chess">
-          <div class="service-header">
-            <div class="service-icon-box">🧠</div>
+        <!-- Service 6 -->
+        <div class="clean-service-card category-chess">
+          <div class="service-top">
+            <div class="service-icon-clean">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
             <h3>Strategic Thinking & Decision-Making</h3>
-            <p class="service-summary">
-              Executive workshops translating grandmaster chess strategy and risk calculation into leadership, problem-solving, and decisive execution.
+            <p class="service-desc">
+              Workshops translating grandmaster chess calculation and risk analysis into leadership, problem-solving, and decisive strategic execution.
             </p>
           </div>
-          <ul class="service-features">
+          <ul class="service-checklist">
             <li>
               <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              Scenario analysis & tree-of-thought problem breakdown
+              Decision tree breakdown & high-pressure calculation
             </li>
             <li>
               <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              Risk assessment under time constraint and pressure
+              Risk assessment under strict time constraints
             </li>
             <li>
               <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              Leadership and initiative cultivation for young minds
-            </li>
-            <li>
-              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              Interactive simulation masterclasses
+              Interactive strategy scenarios & cognitive agility
             </li>
           </ul>
-          <div class="service-footer">
-            <span class="service-badge">Workshops & Seminars</span>
-            <button class="btn btn-primary btn-sm" data-open-modal data-service="Strategic Thinking & Decision-Making Workshop">
+          <div class="service-bottom">
+            <span class="service-tag">Executive Workshops</span>
+            <button class="btn btn-secondary btn-sm" data-open-modal data-service="Strategic Thinking & Decision-Making Workshop">
               Book Workshop
             </button>
           </div>
@@ -472,96 +457,87 @@
   <section id="projects" class="section">
     <div class="container">
       <div class="section-header">
-        <span class="badge-tag">Innovation & Research</span>
-        <h2 class="section-title">Featured <span class="gradient-text">Projects & Publications</span></h2>
-        <p class="section-desc">Practical engineering that unites wearable computing, medical telemetry, and sustainability.</p>
+        <span class="badge-pill">Technical Portfolio</span>
+        <h2 class="section-title">Projects & <span class="gradient-accent">Research Publications</span></h2>
+        <p class="section-desc">Practical engineering uniting smart wearables, diagnostic medical telemetries, and sustainability.</p>
       </div>
 
       <div class="projects-grid">
 
-        <!-- Project 1: Smart Patient Monitoring Glove -->
-        <div class="project-card">
-          <div class="project-banner">
-            <span class="project-banner-icon">🧤</span>
-            <div class="project-badge-corner">
-              <span class="badge-tag" style="margin:0; background:rgba(56, 189, 248, 0.2);">Wearable IoT</span>
+        <!-- Project 1 -->
+        <div class="clean-project-card">
+          <div>
+            <div class="project-meta-row">
+              <span class="project-category-tag">Wearable IoT</span>
+              <span class="project-status-badge">Functional Prototype</span>
             </div>
-          </div>
-          <div class="project-content">
-            <span class="project-category">Smart Healthcare Tech</span>
             <h3>Smart Patient Monitoring Glove</h3>
-            <p class="project-desc">
-              A state-of-the-art wearable textile glove designed for continuous physiological tracking of critical patient vitals using embedded ESP32 microcontrollers.
+            <p class="project-body">
+              A wearable textile-based diagnostic glove engineered for continuous physiological tracking of patient vitals via embedded microcontrollers.
             </p>
-            <ul class="project-highlights-list">
-              <li><span>•</span> PPG, temperature & biosensors for continuous monitoring</li>
-              <li><span>•</span> Custom elastomeric textile substrate (20% spandex blend) for recovery & sensor retention</li>
-              <li><span>•</span> Modelled in Autodesk Fusion & Inventor under cyclic loading</li>
-              <li><span>•</span> Real-time alert triggers for abnormal heart rate & glucose</li>
+            <ul class="project-bullets">
+              <li><span class="bullet-dot"></span> Integrates PPG, temperature, and biosensing for continuous vitals tracking</li>
+              <li><span class="bullet-dot"></span> Custom 20% spandex elastomeric blend for mechanical tension stability</li>
+              <li><span class="bullet-dot"></span> Parametrically modeled in Autodesk Fusion & Inventor under cyclic strain</li>
+              <li><span class="bullet-dot"></span> Real-time wireless alert triggers for abnormal heart rate & glucose metrics</li>
             </ul>
-            <div class="project-tags">
-              <span class="project-tag">ESP32</span>
-              <span class="project-tag">Bio Sensors</span>
-              <span class="project-tag">Smart Textiles</span>
-              <span class="project-tag">Autodesk Fusion</span>
-              <span class="project-tag">C++</span>
-            </div>
+          </div>
+          <div class="tech-pills">
+            <span class="tech-pill">ESP32</span>
+            <span class="tech-pill">PPG Biosensors</span>
+            <span class="tech-pill">Smart Textiles</span>
+            <span class="tech-pill">Autodesk Fusion</span>
+            <span class="tech-pill">C++</span>
           </div>
         </div>
 
-        <!-- Project 2: Textile Wastewater Research -->
-        <div class="project-card">
-          <div class="project-banner">
-            <span class="project-banner-icon">🌊</span>
-            <div class="project-badge-corner">
-              <span class="badge-tag badge-emerald" style="margin:0;">ICEH 2026 Accepted</span>
+        <!-- Project 2 -->
+        <div class="clean-project-card">
+          <div>
+            <div class="project-meta-row">
+              <span class="project-category-tag">Undergraduate Research · UoM</span>
+              <span class="project-status-badge accepted">ICEH 2026 Accepted</span>
             </div>
-          </div>
-          <div class="project-content">
-            <span class="project-category">Undergraduate Research · UoM</span>
             <h3>Mitigating Textile Wastewater Pollution</h3>
-            <p class="project-desc">
-              A sustainable engineering approach to mitigate hazardous chemical pollution from industrial textile effluents for water protection and public health in Sri Lanka.
+            <p class="project-body">
+              A sustainable engineering approach to mitigate hazardous chemical pollution from industrial textile effluents for water protection in Sri Lanka.
             </p>
-            <ul class="project-highlights-list">
-              <li><span>•</span> Rigorous evaluation of material interactions and treatment phases</li>
-              <li><span>•</span> Abstract accepted at <em>International Conference on Engineering for Humanity (ICEH 2026)</em></li>
-              <li><span>•</span> Sustainable circular economy and environmental protection focus</li>
+            <ul class="project-bullets">
+              <li><span class="bullet-dot"></span> Evaluated material interactions and chemical degradation treatment phases</li>
+              <li><span class="bullet-dot"></span> Abstract accepted at <em>International Conference on Engineering for Humanity (ICEH 2026)</em></li>
+              <li><span class="bullet-dot"></span> Industrial effluent neutralization targeting water safety & circular economy</li>
             </ul>
-            <div class="project-tags">
-              <span class="project-tag">Material Science</span>
-              <span class="project-tag">Chemical Engineering</span>
-              <span class="project-tag">Sustainability</span>
-              <span class="project-tag">Research Publication</span>
-            </div>
+          </div>
+          <div class="tech-pills">
+            <span class="tech-pill">Material Science</span>
+            <span class="tech-pill">Wastewater Treatment</span>
+            <span class="tech-pill">Environmental Tech</span>
+            <span class="tech-pill">Peer-Reviewed</span>
           </div>
         </div>
 
-        <!-- Project 3: HealthyByte -->
-        <div class="project-card">
-          <div class="project-banner">
-            <span class="project-banner-icon">🩺</span>
-            <div class="project-badge-corner">
-              <span class="badge-tag badge-amber" style="margin:0;">50+ Telemetry Tested</span>
+        <!-- Project 3 -->
+        <div class="clean-project-card">
+          <div>
+            <div class="project-meta-row">
+              <span class="project-category-tag">Diagnostic Software</span>
+              <span class="project-status-badge">50+ Patients Tested</span>
             </div>
-          </div>
-          <div class="project-content">
-            <span class="project-category">Medical Diagnostics Software</span>
             <h3>HealthyByte Telemetry System</h3>
-            <p class="project-desc">
-              A clinical telemetry application that monitors and calculates BMI and Blood Pressure metrics against standard medical diagnostic thresholds.
+            <p class="project-body">
+              A clinical telemetry application that calculates and classifies BMI and Blood Pressure metrics according to medical diagnostic standards.
             </p>
-            <ul class="project-highlights-list">
-              <li><span>•</span> Automated risk stratification based on standardized medical criteria</li>
-              <li><span>•</span> Validated on 50+ patient clinical telemetries</li>
-              <li><span>•</span> High accuracy, responsive interface, and historical data visualization</li>
+            <ul class="project-bullets">
+              <li><span class="bullet-dot"></span> Automated risk stratification based on standardized clinical criteria</li>
+              <li><span class="bullet-dot"></span> Tested and validated on 50+ real patient clinical telemetries</li>
+              <li><span class="bullet-dot"></span> Clear data visualization and historical vitals progression charts</li>
             </ul>
-            <div class="project-tags">
-              <span class="project-tag">HealthTech</span>
-              <span class="project-tag">Data Analytics</span>
-              <span class="project-tag">C# / Python</span>
-              <span class="project-tag">Medical Standards</span>
-            </div>
+          </div>
+          <div class="tech-pills">
+            <span class="tech-pill">HealthTech</span>
+            <span class="tech-pill">Telemetry</span>
+            <span class="tech-pill">C# / Python</span>
+            <span class="tech-pill">Clinical Standards</span>
           </div>
         </div>
 
@@ -570,284 +546,290 @@
   </section>
 
   <!-- Sports & Achievements Section -->
-  <section id="achievements" class="section" style="background: var(--bg-secondary);">
+  <section id="achievements" class="section" style="background: var(--bg-surface);">
     <div class="container">
       <div class="section-header">
-        <span class="badge-tag badge-amber">Honors & Accolades</span>
-        <h2 class="section-title">Sports & <span class="gradient-text">Competitive Achievements</span></h2>
-        <p class="section-desc">Demonstrated excellence on the international chess circuit, university sports, and national arenas.</p>
+        <span class="badge-pill gold">Competitive Record</span>
+        <h2 class="section-title">Sports & <span class="gradient-accent">Competitive Honors</span></h2>
+        <p class="section-desc">Consistent track record of excellence in national and international chess championships and collegiate sports.</p>
       </div>
 
       <div class="achievements-grid">
-        <div class="achievement-card">
-          <div class="achievement-medal">🥈</div>
-          <div class="achievement-details">
+        <div class="clean-achievement-card">
+          <div class="award-icon-box">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <div class="award-details">
             <h4>Silver Medal</h4>
-            <div class="achievement-event">Asian Youth Chess Championship</div>
-            <div class="achievement-meta">Represented Sri Lanka internationally</div>
+            <div class="award-event">Asian Youth Chess Championship</div>
+            <div class="award-meta">Represented Sri Lanka internationally</div>
           </div>
         </div>
 
-        <div class="achievement-card">
-          <div class="achievement-medal">🌍</div>
-          <div class="achievement-details">
+        <div class="clean-achievement-card">
+          <div class="award-icon-box">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+          </div>
+          <div class="award-details">
             <h4>World Top 10</h4>
-            <div class="achievement-event">World Schools Chess Championship</div>
-            <div class="achievement-meta">Turkey · Ranked among top junior players worldwide</div>
+            <div class="award-event">World Schools Chess Championship</div>
+            <div class="award-meta">Turkey · Ranked among top junior players globally</div>
           </div>
         </div>
 
-        <div class="achievement-card">
-          <div class="achievement-medal">🥇</div>
-          <div class="achievement-details">
+        <div class="clean-achievement-card">
+          <div class="award-icon-box">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 010-5H6M18 9h1.5a2.5 2.5 0 000-5H18M4 22h16M10 14.66V17c0 .55-.45 1-1 1H7.5M14 14.66V17c0 .55.45 1 1 1h1.5M18 2H6v7a6 6 0 0012 0V2z"/></svg>
+          </div>
+          <div class="award-details">
             <h4>National Champion</h4>
-            <div class="achievement-event">National Schools Individual Championship</div>
-            <div class="achievement-meta">Top rank in Sri Lanka</div>
+            <div class="award-event">National Schools Individual Championship</div>
+            <div class="award-meta">Top rank in Sri Lanka</div>
           </div>
         </div>
 
-        <div class="achievement-card">
-          <div class="achievement-medal">🥈</div>
-          <div class="achievement-details">
+        <div class="clean-achievement-card">
+          <div class="award-icon-box">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <div class="award-details">
             <h4>1st Runner-Up</h4>
-            <div class="achievement-event">National Youth Individual Championship</div>
-            <div class="achievement-meta">Sri Lanka National Youth Finals</div>
+            <div class="award-event">National Youth Individual Championship</div>
+            <div class="award-meta">Sri Lanka National Youth Finals</div>
           </div>
         </div>
 
-        <div class="achievement-card">
-          <div class="achievement-medal">🥇</div>
-          <div class="achievement-details">
+        <div class="clean-achievement-card">
+          <div class="award-icon-box">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <div class="award-details">
             <h4>Team Champions</h4>
-            <div class="achievement-event">National Schools Team Championship</div>
-            <div class="achievement-meta">Gold Medal Team Captaincy / Member</div>
+            <div class="award-event">National Schools Team Championship</div>
+            <div class="award-meta">Gold Medal Team Member</div>
           </div>
         </div>
 
-        <div class="achievement-card">
-          <div class="achievement-medal">🏆</div>
-          <div class="achievement-details">
+        <div class="clean-achievement-card">
+          <div class="award-icon-box">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 010-5H6M18 9h1.5a2.5 2.5 0 000-5H18M4 22h16M10 14.66V17c0 .55-.45 1-1 1H7.5M14 14.66V17c0 .55.45 1 1 1h1.5M18 2H6v7a6 6 0 0012 0V2z"/></svg>
+          </div>
+          <div class="award-details">
             <h4>SLUG Champions</h4>
-            <div class="achievement-event">Sri Lanka University Games</div>
-            <div class="achievement-meta">Champions · University of Moratuwa</div>
+            <div class="award-event">Sri Lanka University Games</div>
+            <div class="award-meta">Champions · University of Moratuwa</div>
           </div>
         </div>
 
-        <div class="achievement-card">
-          <div class="achievement-medal">🎖️</div>
-          <div class="achievement-details">
+        <div class="clean-achievement-card">
+          <div class="award-icon-box">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+          </div>
+          <div class="award-details">
             <h4>Triple Colorsman</h4>
-            <div class="achievement-event">University, Province & School Colors</div>
-            <div class="achievement-meta">University of Moratuwa, Western Province & Royal College</div>
+            <div class="award-event">University, Province & School Colors</div>
+            <div class="award-meta">Univ. of Moratuwa, Western Province & Royal College</div>
           </div>
         </div>
 
-        <div class="achievement-card">
-          <div class="achievement-medal">🥋</div>
-          <div class="achievement-details">
+        <div class="clean-achievement-card">
+          <div class="award-icon-box">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <div class="award-details">
             <h4>Yellow Belt</h4>
-            <div class="achievement-event">Martial Arts (Taekwondo)</div>
-            <div class="achievement-meta">Discipline and agility training</div>
+            <div class="award-event">Martial Arts (Taekwondo)</div>
+            <div class="award-meta">Physical agility and discipline training</div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Technical Skills Section -->
+  <!-- Technical Skills & Leadership Section -->
   <section id="skills" class="section">
     <div class="container">
       <div class="section-header">
-        <span class="badge-tag">Capabilities Matrix</span>
-        <h2 class="section-title">Technical Skills & <span class="gradient-text">Proficiencies</span></h2>
-        <p class="section-desc">A diverse toolkit connecting hardware engineering, materials science, software development, and strategic disciplines.</p>
+        <span class="badge-pill">Technical Matrix</span>
+        <h2 class="section-title">Core Skills & <span class="gradient-accent">Leadership</span></h2>
+        <p class="section-desc">Disciplined technical competencies bridging embedded computing, textile science, and organization.</p>
       </div>
 
-      <div class="skills-tabs">
-
-        <!-- Category: Programming & Languages -->
-        <div class="skill-category-card">
-          <div class="skill-category-header">
-            <span style="font-size: 1.5rem;">💻</span>
-            <h3>Programming & Software</h3>
-          </div>
-          <div class="skill-badge-list">
-            <span class="skill-pill">C#</span>
-            <span class="skill-pill">C++</span>
-            <span class="skill-pill">Java</span>
-            <span class="skill-pill">Python</span>
-            <span class="skill-pill">JavaScript</span>
-            <span class="skill-pill">PHP</span>
-            <span class="skill-pill">Git & GitHub</span>
-            <span class="skill-pill">HTML5 & Modern CSS3</span>
-            <span class="skill-pill">Object-Oriented Design</span>
+      <div class="skills-grid">
+        <div class="skill-box">
+          <h3 class="skill-box-title">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+            Programming & Software
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">C#</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">Git & GitHub</span>
+            <span class="skill-tag">HTML5 / CSS3</span>
+            <span class="skill-tag">OOP Architecture</span>
           </div>
         </div>
 
-        <!-- Category: Hardware & IoT -->
-        <div class="skill-category-card">
-          <div class="skill-category-header">
-            <span style="font-size: 1.5rem;">⚡</span>
-            <h3>Hardware, IoT & Biosensors</h3>
-          </div>
-          <div class="skill-badge-list">
-            <span class="skill-pill">ESP32 Microcontrollers</span>
-            <span class="skill-pill">Arduino Uno</span>
-            <span class="skill-pill">PPG Biosensors</span>
-            <span class="skill-pill">Temperature & Glucose Sensors</span>
-            <span class="skill-pill">Telemetry Systems</span>
-            <span class="skill-pill">Wearable E-Textiles</span>
-            <span class="skill-pill">Circuit Prototyping</span>
-          </div>
-        </div>
-
-        <!-- Category: CAD & Textile Engineering -->
-        <div class="skill-category-card">
-          <div class="skill-category-header">
-            <span style="font-size: 1.5rem;">📐</span>
-            <h3>CAD & Material Science</h3>
-          </div>
-          <div class="skill-badge-list">
-            <span class="skill-pill">Autodesk Fusion</span>
-            <span class="skill-pill">Autodesk Inventor</span>
-            <span class="skill-pill">Parametric Modeling</span>
-            <span class="skill-pill">Endurance & Cyclic Analysis</span>
-            <span class="skill-pill">Fibre Science</span>
-            <span class="skill-pill">Weave Architectures</span>
-            <span class="skill-pill">Composites (Carbon/Glass)</span>
-            <span class="skill-pill">Epoxy Layup & Curing</span>
+        <div class="skill-box">
+          <h3 class="skill-box-title">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+            Hardware & IoT Systems
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">ESP32</span>
+            <span class="skill-tag">Arduino Uno</span>
+            <span class="skill-tag">PPG Biosensors</span>
+            <span class="skill-tag">Temperature Sensors</span>
+            <span class="skill-tag">Wireless Telemetry</span>
+            <span class="skill-tag">Wearable E-Textiles</span>
+            <span class="skill-tag">Circuit Prototyping</span>
           </div>
         </div>
 
-        <!-- Category: Strategy & Leadership -->
-        <div class="skill-category-card">
-          <div class="skill-category-header">
-            <span style="font-size: 1.5rem;">♟️</span>
-            <h3>Strategy & Languages</h3>
-          </div>
-          <div class="skill-badge-list">
-            <span class="skill-pill">FIDE Chess Strategy</span>
-            <span class="skill-pill">Opening Repertoire Design</span>
-            <span class="skill-pill">CFSL National Trainer</span>
-            <span class="skill-pill">Coaching 300+ Students</span>
-            <span class="skill-pill">English (Fluent)</span>
-            <span class="skill-pill">Sinhala (Native)</span>
-            <span class="skill-pill">Tamil (Fluent)</span>
-            <span class="skill-pill">Urdu (Basic)</span>
+        <div class="skill-box">
+          <h3 class="skill-box-title">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+            CAD & Material Science
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Autodesk Fusion</span>
+            <span class="skill-tag">Autodesk Inventor</span>
+            <span class="skill-tag">Parametric Modeling</span>
+            <span class="skill-tag">Cyclic Load Analysis</span>
+            <span class="skill-tag">Fibre Science</span>
+            <span class="skill-tag">Weave Architectures</span>
+            <span class="skill-tag">Composites & Resin</span>
           </div>
         </div>
 
-      </div>
-
-      <!-- Leadership Highlight -->
-      <div style="margin-top: 3.5rem;">
-        <h3 style="text-align: center; margin-bottom: 2rem; font-size: 1.6rem;">Leadership & Community Impact</h3>
-        <div class="leadership-grid">
-          <div class="leadership-card">
-            <div class="leadership-icon">🚀</div>
-            <div>
-              <h4 style="font-size: 1.15rem; margin-bottom: 0.3rem;">President – Entrepreneurship Society</h4>
-              <div style="color: var(--accent-cyan); font-weight: 600; font-size: 0.9rem; margin-bottom: 0.4rem;">University of Moratuwa</div>
-              <p style="font-size: 0.88rem; color: var(--text-secondary);">Directing university innovation initiatives, student startup hackathons, and corporate mentorship channels.</p>
-            </div>
-          </div>
-
-          <div class="leadership-card">
-            <div class="leadership-icon">🤝</div>
-            <div>
-              <h4 style="font-size: 1.15rem; margin-bottom: 0.3rem;">Vice President – Leo Club of Polgasowita</h4>
-              <div style="color: var(--accent-emerald); font-weight: 600; font-size: 0.9rem; margin-bottom: 0.4rem;">Term 2026 / 2027</div>
-              <p style="font-size: 0.88rem; color: var(--text-secondary);">Organizing youth empowerment, community social outreach, and health welfare programs across the region.</p>
-            </div>
+        <div class="skill-box">
+          <h3 class="skill-box-title">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            Strategy & Languages
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">FIDE Chess Strategy</span>
+            <span class="skill-tag">Opening Preparation</span>
+            <span class="skill-tag">CFSL National Trainer</span>
+            <span class="skill-tag">English (Fluent)</span>
+            <span class="skill-tag">Sinhala (Native)</span>
+            <span class="skill-tag">Tamil (Fluent)</span>
+            <span class="skill-tag">Urdu (Basic)</span>
           </div>
         </div>
       </div>
 
+      <!-- Leadership Highlight -->
+      <div class="leadership-row">
+        <div class="leadership-item">
+          <div class="leadership-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <div>
+            <h4 style="font-size: 1.05rem; margin-bottom: 0.2rem;">President — Entrepreneurship Society</h4>
+            <div style="color: var(--accent-cyan); font-weight: 600; font-size: 0.84rem; margin-bottom: 0.35rem;">University of Moratuwa</div>
+            <p style="font-size: 0.86rem; color: var(--text-muted); line-height: 1.5;">Directing university innovation initiatives, student startup hackathons, and corporate mentorship channels.</p>
+          </div>
+        </div>
+
+        <div class="leadership-item">
+          <div class="leadership-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <div>
+            <h4 style="font-size: 1.05rem; margin-bottom: 0.2rem;">Vice President — Leo Club of Polgasowita</h4>
+            <div style="color: var(--accent-emerald); font-weight: 600; font-size: 0.84rem; margin-bottom: 0.35rem;">Term 2026 / 2027</div>
+            <p style="font-size: 0.86rem; color: var(--text-muted); line-height: 1.5;">Organizing youth empowerment, community social outreach, and healthcare welfare initiatives across the district.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Contact & Booking Section -->
-  <section id="contact" class="section" style="background: var(--bg-secondary);">
+  <!-- Contact Section -->
+  <section id="contact" class="section" style="background: var(--bg-surface);">
     <div class="container">
       <div class="section-header">
-        <span class="badge-tag">Let's Connect</span>
-        <h2 class="section-title">Get in Touch or <span class="gradient-text">Book a Service</span></h2>
-        <p class="section-desc">Have a question about chess training, want to collaborate on an engineering project, or book a consultation? Reach out directly.</p>
+        <span class="badge-pill">Direct Contact</span>
+        <h2 class="section-title">Get in Touch or <span class="gradient-accent">Book a Consultation</span></h2>
+        <p class="section-desc">Reach out for 1-on-1 chess coaching, institutional training, software development, or textile engineering inquiries.</p>
       </div>
 
-      <div class="contact-grid">
-        <div class="contact-info-card">
-          <h3 style="font-size: 1.5rem; margin-bottom: 0.8rem;">Direct Channels</h3>
-          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.8rem;">
-            Feel free to call, send a WhatsApp message, or email directly. I respond promptly to coaching inquiries and engineering collaborations.
+      <div class="contact-container">
+        <div class="contact-card">
+          <h3 style="font-size: 1.35rem; margin-bottom: 0.5rem;">Contact Information</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.5rem;">
+            I respond promptly to coaching inquiries and engineering collaborations via WhatsApp, email, or direct calls.
           </p>
 
-          <div class="contact-channels">
-            <a href="https://wa.me/94754430476" target="_blank" rel="noopener" class="channel-item">
-              <div class="channel-icon green">
-                <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.777.78 2.79.78 3.182 0 5.768-2.587 5.768-5.766.001-3.182-2.585-5.766-5.767-5.766zm9.969 5.766c0 5.514-4.486 10-10 10-1.823 0-3.539-.49-5.019-1.344l-5.981 1.564 1.593-5.819c-.933-1.529-1.468-3.322-1.468-5.237 0-5.514 4.486-10 10-10 5.514 0 10 4.486 10 10z"/></svg>
+          <div class="contact-list">
+            <a href="https://wa.me/94754430476" target="_blank" rel="noopener" class="contact-link-item whatsapp">
+              <div class="contact-icon-wrap">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.777.78 2.79.78 3.182 0 5.768-2.587 5.768-5.766.001-3.182-2.585-5.766-5.767-5.766zm9.969 5.766c0 5.514-4.486 10-10 10-1.823 0-3.539-.49-5.019-1.344l-5.981 1.564 1.593-5.819c-.933-1.529-1.468-3.322-1.468-5.237 0-5.514 4.486-10 10-10 5.514 0 10 4.486 10 10z"/></svg>
               </div>
               <div>
-                <div class="channel-label">WhatsApp / Phone</div>
-                <div class="channel-val">+94 75 443 0476</div>
+                <div class="contact-lbl">WhatsApp / Phone</div>
+                <div class="contact-val">+94 75 443 0476</div>
               </div>
             </a>
 
-            <a href="mailto:palliete.24@uom.lk" class="channel-item">
-              <div class="channel-icon">
-                <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            <a href="mailto:palliete.24@uom.lk" class="contact-link-item">
+              <div class="contact-icon-wrap">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
               </div>
               <div>
-                <div class="channel-label">University Email</div>
-                <div class="channel-val">palliete.24@uom.lk</div>
+                <div class="contact-lbl">University Email</div>
+                <div class="contact-val">palliete.24@uom.lk</div>
               </div>
             </a>
 
-            <div class="channel-item">
-              <div class="channel-icon amber">
-                <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            <div class="contact-link-item">
+              <div class="contact-icon-wrap">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
               </div>
               <div>
-                <div class="channel-label">Location</div>
-                <div class="channel-val">Colombo, Sri Lanka</div>
+                <div class="contact-lbl">Location</div>
+                <div class="contact-val">Colombo, Sri Lanka</div>
               </div>
             </div>
           </div>
 
-          <div style="margin-top: 1.5rem;">
-            <a href="https://tinyurl.com/2w5prcv7" target="_blank" rel="noopener" class="btn btn-outline" style="width: 100%; justify-content: center;">
-              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-              Connect on LinkedIn Profile
-            </a>
-          </div>
+          <a href="https://tinyurl.com/2w5prcv7" target="_blank" rel="noopener" class="btn btn-outline" style="width: 100%;">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            Connect on LinkedIn
+          </a>
         </div>
 
-        <div class="contact-form-box">
-          <h3 style="font-size: 1.5rem; margin-bottom: 0.8rem;">Send a Direct Message</h3>
-          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.8rem;">
-            Fill out the details below to generate a pre-formatted message directly to my inbox.
+        <div class="form-card">
+          <h3 style="font-size: 1.35rem; margin-bottom: 0.5rem;">Send a Direct Message</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.5rem;">
+            Submit your inquiry to generate an email directly to my inbox.
           </p>
 
           <form id="main-contact-form">
             <div class="form-group">
-              <label for="contact-name">Your Full Name</label>
-              <input type="text" id="contact-name" class="form-control" placeholder="e.g. Alexander Smith" required>
+              <label for="contact-name">Your Name</label>
+              <input type="text" id="contact-name" class="clean-input" placeholder="e.g. Alexander Smith" required>
             </div>
             <div class="form-group">
               <label for="contact-email">Email Address</label>
-              <input type="email" id="contact-email" class="form-control" placeholder="alexander@example.com" required>
+              <input type="email" id="contact-email" class="clean-input" placeholder="alexander@example.com" required>
             </div>
             <div class="form-group">
               <label for="contact-subject">Topic / Purpose</label>
-              <input type="text" id="contact-subject" class="form-control" placeholder="e.g., Private Chess Coaching Inquiry or IoT Project" required>
+              <input type="text" id="contact-subject" class="clean-input" placeholder="e.g. Chess Coaching or IoT Project Collaboration" required>
             </div>
             <div class="form-group">
               <label for="contact-message">Message Details</label>
-              <textarea id="contact-message" class="form-control" placeholder="Tell me about your goals, student rating level, or project specifications..." required></textarea>
+              <textarea id="contact-message" class="clean-input" placeholder="Provide background on your student's rating or project scope..." required></textarea>
             </div>
             <button type="submit" class="btn btn-primary" style="width: 100%;">
               Send Message
-              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
             </button>
           </form>
         </div>
@@ -855,24 +837,24 @@
     </div>
   </section>
 
-  <!-- Service Booking / Inquiry Interactive Modal -->
+  <!-- Service Booking / Inquiry Modal -->
   <div class="modal-overlay" id="inquiry-modal" role="dialog" aria-modal="true">
-    <div class="modal-card">
-      <button class="modal-close" id="modal-close" aria-label="Close modal">&times;</button>
-      <span class="badge-tag" style="margin-bottom: 0.6rem;">Direct Inquiry</span>
-      <h3 style="font-size: 1.6rem; margin-bottom: 0.5rem;">Book / Inquire About a Service</h3>
-      <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.6rem;">
-        Select your preferred service and contact method to connect with Tuan Ehshan Pallie.
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modal-close" aria-label="Close modal">&times;</button>
+      <span class="badge-pill" style="margin-bottom: 0.5rem;">Direct Inquiry</span>
+      <h3 style="font-size: 1.45rem; margin-bottom: 0.4rem;">Inquire About a Service</h3>
+      <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 1.4rem;">
+        Choose your service and preferred communication route to connect with Tuan Ehshan Pallie.
       </p>
 
       <form id="modal-inquiry-form">
         <div class="form-group">
           <label for="modal-service-select">Selected Service</label>
-          <select id="modal-service-select" class="form-control">
+          <select id="modal-service-select" class="clean-input">
             <option value="1-on-1 Personalized Chess Coaching">1-on-1 Personalized Chess Coaching</option>
-            <option value="School & Institutional Chess Training">School & Institutional Chess Training</option>
+            <option value="School & Institutional Chess Programs">School & Institutional Chess Programs</option>
             <option value="Wearable IoT & Biosensing Prototyping">Wearable IoT & Biosensing Prototyping</option>
-            <option value="Full-Stack Software & Web Development">Full-Stack Software & Web Development</option>
+            <option value="Full-Stack Software Development">Full-Stack Software Development</option>
             <option value="Parametric CAD & Textile Engineering">Parametric CAD & Textile Engineering</option>
             <option value="Strategic Thinking & Decision-Making Workshop">Strategic Thinking & Decision-Making Workshop</option>
             <option value="General Consultation">General Consultation / Other</option>
@@ -880,23 +862,23 @@
         </div>
 
         <div class="form-group">
-          <label for="modal-name">Your Name</label>
-          <input type="text" id="modal-name" class="form-control" placeholder="Your name or school/organization" required>
+          <label for="modal-name">Your Full Name</label>
+          <input type="text" id="modal-name" class="clean-input" placeholder="Your name or school/company" required>
         </div>
 
         <div class="form-group">
-          <label for="modal-contact">Your Email / Phone Number</label>
-          <input type="text" id="modal-contact" class="form-control" placeholder="e.g. +94 7X XXX XXXX or email@domain.com" required>
+          <label for="modal-contact">Email or Phone Number</label>
+          <input type="text" id="modal-contact" class="clean-input" placeholder="e.g. +94 7X XXX XXXX or name@domain.com" required>
         </div>
 
         <div class="form-group">
-          <label for="modal-notes">Requirements / Current Level / Timeline</label>
-          <textarea id="modal-notes" class="form-control" style="min-height: 85px;" placeholder="e.g., FIDE rating 1450 wanting to reach 1800; or need an ESP32 wearable prototype by next month..."></textarea>
+          <label for="modal-notes">Requirements & Current Level</label>
+          <textarea id="modal-notes" class="clean-input" style="min-height: 80px;" placeholder="e.g., Target FIDE rating, student age, or prototype specifications..."></textarea>
         </div>
 
         <div class="form-group">
-          <label style="margin-bottom: 0.6rem;">Preferred Contact Route</label>
-          <div style="display: flex; gap: 1.2rem; align-items: center; font-size: 0.9rem;">
+          <label style="margin-bottom: 0.5rem;">Send Via</label>
+          <div style="display: flex; gap: 1.2rem; font-size: 0.86rem;">
             <label style="display: flex; align-items: center; gap: 0.4rem; cursor: pointer;">
               <input type="radio" name="modal-method" value="whatsapp" checked>
               WhatsApp (+94 75 443 0476)
@@ -908,57 +890,34 @@
           </div>
         </div>
 
-        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">
-          Continue via WhatsApp / Email
+        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 0.8rem;">
+          Continue to Chat / Email
         </button>
       </form>
     </div>
   </div>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-top">
-        <div>
-          <a href="#home" class="brand-logo" style="margin-bottom: 0.6rem;">
-            <span class="logo-badge">EP</span>
-            <span>Tuan Ehshan Pallie</span>
-          </a>
-          <p style="color: var(--text-muted); font-size: 0.9rem; max-width: 440px;">
-            Software & IoT Developer · Textile & Apparel Engineer (UoM) · Certified National Chess Trainer.
-          </p>
-        </div>
-
-        <div class="footer-socials">
-          <a href="https://wa.me/94754430476" target="_blank" rel="noopener" class="social-link" title="WhatsApp">
-            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.777.78 2.79.78 3.182 0 5.768-2.587 5.768-5.766.001-3.182-2.585-5.766-5.767-5.766zm9.969 5.766c0 5.514-4.486 10-10 10-1.823 0-3.539-.49-5.019-1.344l-5.981 1.564 1.593-5.819c-.933-1.529-1.468-3.322-1.468-5.237 0-5.514 4.486-10 10-10 5.514 0 10 4.486 10 10z"/></svg>
-          </a>
-          <a href="mailto:palliete.24@uom.lk" class="social-link" title="Email">
-            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-          </a>
-          <a href="https://tinyurl.com/2w5prcv7" target="_blank" rel="noopener" class="social-link" title="LinkedIn">
-            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-          </a>
-          <a href="https://github.com" target="_blank" rel="noopener" class="social-link" title="GitHub">
-            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
-          </a>
-        </div>
+  <!-- Minimalist Footer -->
+  <footer class="clean-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        &copy; <span id="current-year"></span> Tuan Ehshan Pallie. All Rights Reserved.
       </div>
 
-      <div class="footer-bottom">
-        <div>
-          &copy; <span id="current-year"></span> Tuan Ehshan Pallie. All Rights Reserved.
-        </div>
-        <div>
-          Designed for Speed & Built with Modern Standards &middot; Hosted on GitHub Pages
-        </div>
+      <div class="footer-social-row">
+        <a href="https://wa.me/94754430476" target="_blank" rel="noopener" class="social-icon-btn" title="WhatsApp">
+          <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.777.78 2.79.78 3.182 0 5.768-2.587 5.768-5.766.001-3.182-2.585-5.766-5.767-5.766zm9.969 5.766c0 5.514-4.486 10-10 10-1.823 0-3.539-.49-5.019-1.344l-5.981 1.564 1.593-5.819c-.933-1.529-1.468-3.322-1.468-5.237 0-5.514 4.486-10 10-10 5.514 0 10 4.486 10 10z"/></svg>
+        </a>
+        <a href="mailto:palliete.24@uom.lk" class="social-icon-btn" title="Email">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+        </a>
+        <a href="https://tinyurl.com/2w5prcv7" target="_blank" rel="noopener" class="social-icon-btn" title="LinkedIn">
+          <svg fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
       </div>
     </div>
   </footer>
 
-  <script>
-    document.getElementById('current-year').textContent = new Date().getFullYear();
-  </script>
   <script src="assets/js/main.js"></script>
 </body>
 </html>
